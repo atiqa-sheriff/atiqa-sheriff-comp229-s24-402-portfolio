@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 4</title>
+    <link rel="stylesheet" href="stylesheet.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Image Gallery</h1>
+      <h3>Assignment 4</h3>
+
+      <div class="zoom_pics" id="zoom">
+        <img src="./pic1.jpeg" alt="Cake" id="zoompic" />
+        <p id="zoomCaption"></p>
+        <span onclick="closeZoomPic()">X</span>
+        <button id="addToFavorites" onclick="addToFavorites()">
+          Add to Favorites
+        </button>
+      </div>
+
+      <div class="album_wrap">
+        <img src="./left.svg" alt="left button" id="left_btn" />
+
+        <div class="album">
+          <img
+            src="./pic1.jpeg"
+            alt="Cake"
+            data-caption="Birthday Cake"
+            onclick="openZoomPic(this.src, this.dataset.caption)"
+          />
+          <img
+            src="./pic2.webp"
+            alt="Cake"
+            data-caption="Pink Cake"
+            onclick="openZoomPic(this.src, this.dataset.caption)"
+          />
+          <img
+            src="./pic3.jpg"
+            alt="Cats"
+            data-caption="Two Cats"
+            onclick="openZoomPic(this.src, this.dataset.caption)"
+          />
+          <img
+            src="./pic4.webp"
+            alt="Cat"
+            data-caption="Cat"
+            onclick="openZoomPic(this.src, this.dataset.caption)"
+          />
+          <img
+            src="./pic5.jpeg"
+            alt="Harry Potter"
+            data-caption="Harry Potter Doodle"
+            onclick="openZoomPic(this.src, this.dataset.caption)"
+          />
+          <img
+            src="./pic6.webp"
+            alt="Ron Weasley"
+            data-caption="Ron Weasley Doodle"
+            onclick="openZoomPic(this.src, this.dataset.caption)"
+          />
+          <img
+            src="./pic 7.jpeg"
+            alt="Macarons"
+            data-caption="Macarons"
+            onclick="openZoomPic(this.src, this.dataset.caption)"
+          />
+          <img
+            src="./pic8.jpeg"
+            alt="Macarons"
+            data-caption="Macarons"
+            onclick="openZoomPic(this.src, this.dataset.caption)"
+          />
+        </div>
+
+        <img src="./right.svg" alt="right button" id="right_btn" />
+      </div>
+
+      <h2>Favorite Images:</h2>
+
+      <div id="favoritesArea"></div>
+
+      <footer>
+        <hr size="3px" ; color="#f44336" ; style="margin-top: 12px" />
+        Image Links:
+        <a href="https://www.landolakes.com/recipe/6220/birthday-cake/"
+          >Cake 1 |
+        </a>
+        <a href="https://spongedrop.co.nz/products/birthday-cake">Cake 2 | </a>
+        <a
+          href="https://www.istockphoto.com/photo/couple-of-sleeping-kittens-in-love-on-valentine-day-cat-noses-close-up-family-of-gm1352010441-427555635"
+          >Cat 1 |
+        </a>
+        <a
+          href="https://www.theguardian.com/lifeandstyle/2020/sep/05/what-cats-mean-by-miaow-japans-pet-guru-knows-just-what-your-feline-friend-wants"
+          >Cat 2 |
+        </a>
+        <a href="https://www.instagram.com/mandadoesdoodles/p/Ct4dK5Eu5aF/"
+          >Harry Potter |
+        </a>
+        <a href="https://www.craiyon.com/image/07sqC0fjRxa8C4MTZr_b2g">
+          Ron Weasley |
+        </a>
+        <a
+          href="https://foodisafourletterword.com/recipe/quick-macaron-recipe-swiss-method-oven-drying/"
+          >Macarons 1 |
+        </a>
+        <a href="https://stylesweet.com/2018-3-21-pastel-gold-french-macarons/"
+          >Macarons 2</a
+        >
+        <p>&copy; 2024 Atiqa Sheriff (300507716). All rights reserved.</p>
+        <hr size="3px" ; color="#f44336" ; style="margin-top: 12px" />
+      </footer>
+    </div>
+  </body>
+</html>

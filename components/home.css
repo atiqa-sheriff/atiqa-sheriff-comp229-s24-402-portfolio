@@ -1,0 +1,39 @@
+/* File name: home.css
+   Student’s Name: Atiqa Sheriff
+   StudentID: 300507716
+   Date: 2024-05-26 */
+
+/* Styles for the Home page */
+
+.home-container {
+  text-align: center;
+  padding: 2rem;
+}
+
+.mission-statement {
+  display: flex;
+  justify-content: center;
+  text-align: justify;
+  max-width: 500px;
+  margin: 1rem auto;
+}
+
+.mission-statement p {
+  margin: 0;
+}
+
+.links-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.home-link {
+  font-size: 0.9rem;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.home-link:hover {
+  text-decoration: underline;
+}

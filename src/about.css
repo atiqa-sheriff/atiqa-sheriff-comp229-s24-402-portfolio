@@ -1,0 +1,53 @@
+/* File name: about.css
+   Student’s Name: Atiqa Sheriff
+   StudentID: 30050716
+   Date: 2024-05-26 */
+
+/* Styles for the About page */
+
+.about-container {
+  max-width: 550px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.about-image {
+  max-width: 200px;
+  border-radius: 50%;
+}
+
+.about-text {
+  text-align: justify;
+  color: #3b5998;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  letter-spacing: 0.25px;
+}
+
+.about-button {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.about-button button {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  background-color: #008cba;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.about-button button:hover {
+  background-color: #007bb5;
+}

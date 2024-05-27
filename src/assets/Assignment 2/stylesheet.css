@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
+
+.container {
+  width: 800px;
+  border: 3px solid #f44336;
+  height: auto;
+  margin: auto;
+  padding: 10px;
+  background: #e1ecf1;
+  font-family: shadows into light;
+  color: #232c5a;
+  text-align: center;
+}
+
+h1 {
+  font-size: 80px;
+  letter-spacing: 3px;
+  margin-top: 10px;
+}
+
+h3 {
+  font-size: 30px;
+  margin-top: -50px;
+  letter-spacing: 3px;
+}
+
+.album {
+  width: 80%;
+  margin: 80px auto 40px;
+  display: flex;
+  justify-content: space-between;
+  overflow-x: scroll;
+}
+
+.album img {
+  width: 20%;
+  cursor: pointer;
+  border: solid 3px #f44336;
+  border-radius: 20%;
+  margin: 3px;
+}
+
+.album img:hover {
+  transform: scale(0.8) rotate(10deg);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px 5px pink;
+}
+
+.album::-webkit-scrollbar {
+  display: none;
+}
+
+.album_wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10% auto;
+}
+
+#left_btn,
+#right_btn {
+  width: 20px;
+  cursor: pointer;
+  margin: 10px 5px -35px 20px;
+  background: #e1ecf1;
+}
+
+.zoom_pics {
+  width: 100%;
+  height: 100vh;
+  background: hsla(230, 44%, 25%, 0.444);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+#zoomCaption {
+  background: #e1ecf1;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 25px;
+}
+
+.zoom_pics button {
+  background: #e1ecf1;
+  color: #232c5a;
+  padding: 10px 20px;
+  border: 2px solid #232c5a;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.zoom_pics button:hover {
+  background-color: #316cec;
+}
+
+.zoom_pics img {
+  max-width: 60%;
+  max-height: 60%;
+  border-radius: 20px;
+}
+
+.zoom_pics span {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  font-size: 60px;
+  cursor: pointer;
+  color: #e1ecf1;
+}
+
+#favoritesArea {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 260px;
+}
+
+h2 {
+  text-align: center;
+  margin-top: -50px;
+  margin-left: 40px;
+}
+
+.favorite-img {
+  width: 50px;
+  height: 50px;
+  margin-left: 5px;
+  border: 3px solid#232c5a;
+  border-radius: 20%;
+}
+
+.remove-link {
+  color: #f44336;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.favorite-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  flex-direction: column;
+}
+
+footer {
+  margin-top: 90px;
+}

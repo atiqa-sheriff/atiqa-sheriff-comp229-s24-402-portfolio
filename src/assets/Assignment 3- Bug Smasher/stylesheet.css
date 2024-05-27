@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+body {
+  background-color: #c9df8a;
+}
+
+canvas {
+  background-image: url("grass.webp");
+  display: block;
+  margin: auto;
+  border-radius: 4%;
+}
+
+button {
+  border: #234d20 solid 3px;
+  background-color: whitesmoke;
+  width: 150px;
+  height: 50px;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-left: 10px;
+  font-family: shantell sans;
+  color: #234d20;
+  cursor: pointer;
+}
+
+h1 {
+  text-align: center;
+  color: #234d20;
+  font-size: 50px;
+  font-family: shantell sans;
+}
